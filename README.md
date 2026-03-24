@@ -29,13 +29,15 @@ A modern implementation of the classic arcade game, developed as a capstone proj
    cd asteroids
    
 2. Run the application:
+```bash
 python3 main.py
-
+```
 🎮 Gameplay & Controls
 Movement: W/S for thrust, A/D for rotation.
 Combat: Spacebar to fire lasers.
 Objective: Navigate through an increasingly dense asteroid field and destroy targets.
+
 📈 Future Roadmap
-[ ] Scoring System: Implementing a persistent high-score database.
-[ ] AABB Collisions: Moving from circular hitboxes to more precise bounding boxes.
-[ ] Unit Testing: Adding a suite of tests for the physics engine logic.
+- Scoring System: Implementing a persistent high-score database.
+- AABB Collisions: Moving from circular hitboxes to more precise bounding boxes.
+- Unit Testing: Adding a suite of tests for the physics engine logic.
